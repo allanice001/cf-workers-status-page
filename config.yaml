@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://status-page.dragonsecurity.workers.dev/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -36,4 +36,35 @@ monitors:
     name: The Cloudflare Blog
     url: 'https://blog.cloudflare.com/'
     method: GET
+    expectStatus: 200  
+    
+  - id: www-taiosolve-xyz
+    name: Taiosolve
+    url: 'https://www.taiosolve.xyz/'
+    method: GET
     expectStatus: 200
+
+  - id: linaccess-za-net
+    name: Linaccess
+    url: 'http://linaccess.za.net'
+    method: GET
+    expectStatus: 200
+    
+  - id: ctrltilde-com
+    name: CTRL Tilde
+    url: 'https://CtrlTilde.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: automanage-co-za
+    name: Automanage
+    url: 'http://automanage.co.za'
+    method: GET
+    expectStatus: 200
+  
+  - id: cosmo-tech
+    name: Cleanpay
+    url: https://cosmo.tech
+    method: GET
+    expectStatus: 200
+  
