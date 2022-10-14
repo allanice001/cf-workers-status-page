@@ -40,13 +40,13 @@ monitors:
     
   - id: www-taiosolve-xyz
     name: Taiosolve
-    url: 'https://www.taiosolve.xyz/'
+    url: 'https://taiosolve.xyz/'
     method: GET
     expectStatus: 200
 
   - id: linaccess-za-net
     name: Linaccess
-    url: 'http://linaccess.za.net'
+    url: 'https://linaccess.za.net'
     method: GET
     expectStatus: 200
     
