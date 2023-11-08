@@ -67,4 +67,17 @@ monitors:
     url: 'https://cosmo.tech'
     method: GET
     expectStatus: 200
+
+  - id: eu-nuvalaw
+    name: 'Nuvalaw Europe'
+    url: 'https://nuvalaw.com'
+    method: GET
+    expectStatus: 200
+
+  - id: usa-nuvalaw
+    name: 'Nuvalaw USA'
+    url: 'https://usa.nuvalaw.com'
+    method: GET
+    expectStatus: 200
+
   
