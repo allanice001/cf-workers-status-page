@@ -58,13 +58,13 @@ monitors:
     
   - id: automanage-co-za
     name: Automanage
-    url: 'http://automanage.co.za'
+    url: 'https://automanage.co.za'
     method: GET
     expectStatus: 200
   
   - id: cosmo-tech
     name: Cleanpay
-    url: https://cosmo.tech
+    url: 'https://cosmo.tech'
     method: GET
     expectStatus: 200
   
